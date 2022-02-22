@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Sort Numeric File
+sort -n numeric.txt
+
+change permission to 666
+chmod 666 newfile.txt

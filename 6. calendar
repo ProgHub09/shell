@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Celendar Print
+
+# simple month celendar
+cal
+
+# Full Year celendar
+cal -y
+
+# Particular Month celendar
+cal 03 2022
+
+# 3 Months celendar
+cal -3

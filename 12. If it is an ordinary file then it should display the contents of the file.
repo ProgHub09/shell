@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Ordinary File
+echo Enter file name
+read file
+if [ -f $file ]; then
+    echo "File is an ordinary file"
+else
+    echo "File does not exist"
+fi

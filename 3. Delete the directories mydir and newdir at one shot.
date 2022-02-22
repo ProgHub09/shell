@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm = remove
+mk = make
+dir = directory
+rmdir mydir
+mkdir newdir

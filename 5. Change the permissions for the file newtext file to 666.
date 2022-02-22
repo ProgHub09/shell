@@ -1,0 +1,4 @@
+#!/bin/bash
+
+change permission to 666
+chmod 666 newfile.txt

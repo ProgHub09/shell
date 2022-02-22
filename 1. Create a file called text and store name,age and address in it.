@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo Please Enter Your Name
+read name
+
+echo Please Enter Your Age
+read age
+
+echo Please Enter Your Address
+read address
+
+echo Your Details
+echo Name : $name
+echo Age : $age
+echo Address : $address

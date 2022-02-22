@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Terminal Type & Name
+tty
+echo $TERM

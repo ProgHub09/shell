@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# all users of system
+users
+
+# currently loggedin
+who

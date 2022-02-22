@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Machine name
+hostname

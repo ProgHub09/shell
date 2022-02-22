@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# find path of any file
+echo "Enter File Name :"
+read fileName
+
+if [ -f $fileName ]; then
+    str=$(find $fileName)
+    path=$(pwd)
+    echo "Full path of file is $path/$str"
+
+else
+    echo "file [ $fileName ] not exist in"
+    pwd
+fi

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Displya All Executable File
+echo -n "Enter name of the directory :"
+read directory
+
+if [ ! -d $directory ]; then
+    echo "Directory not exist"
+else
+    count=0
+    echo "Files with executable rights are"
+    for i in $(find $directory -type f -perm +111); do
+        echo $i
+        count=$(echo count + 1 | bc -l)
+    done
+    if [ $count -eq 0 ]; then
+        echo "No files found with executable rights"
+    fi
+fi
